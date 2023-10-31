@@ -1,0 +1,8 @@
+POST http://localhost:4400/employee/register
+Content-Type: application/json
+
+{
+    "name": "JOhn Doe",
+    "email": " john12@gmail.com",
+    "phone_no": ""
+}
