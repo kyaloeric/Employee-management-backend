@@ -1,5 +1,5 @@
 import { Router } from "express";
-import { checkUserDetails, getAllEmployees, loginEmployee, registerEmployee } from "../controller/employeesController";
+import { checkUserDetails, getAllEmployees, loginEmployee, registerEmployee } from "../controller/employeeController";
 import { verifyToken } from "../middleware/verifyToken";
 
 const employee_router = Router()

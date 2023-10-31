@@ -22,17 +22,17 @@ export const  sqlConfig = {
 }
 
 
-const pool = mssql.connect(sqlConfig)
+// const pool = mssql.connect(sqlConfig)
 
-if(pool.connected){
+// if(pool.connected){
 
-}
+// }
 
-async function testConnection() {
-    const pool = await mssql.connect(sqlConfig)
-    if (pool.connected){
-        console.log('connected to database');
-    }
+// async function testConnection() {
+//     const pool = await mssql.connect(sqlConfig)
+//     if (pool.connected){
+//         console.log('connected to database');
+//     }
     
-}
-testConnection()
+// }
+// testConnection()

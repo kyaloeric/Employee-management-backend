@@ -3,3 +3,5 @@ node_modules
 dist
 .app.http
 nodemon.json
+node_modules
+dist
